@@ -1,6 +1,8 @@
 from PIL import Image, ImageDraw, ImageFont
 import json
 
+
+
 def create_image_from_bbox_data(json_data, output_filename="rendered_map.png"):
     """
     Generates an image from JSON data containing text elements and their bounding box information.
